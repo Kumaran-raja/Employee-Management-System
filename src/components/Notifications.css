@@ -1,0 +1,32 @@
+.notification{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 30px;
+}
+.notification_container{
+    margin-top: 40vh;
+}
+@media (min-width: 320px) and (max-width: 376px) {
+    .notification{
+        padding: 10px;
+        font-size: 20px;
+    }
+}
+@media (min-width: 376px) and (max-width: 426px){
+    .notification{
+        padding: 10px;
+        font-size: 20px;
+    }
+}
+@media (min-width: 426px) and (max-width: 656px){
+    .notification{
+        padding: 10px;
+        font-size: 20px;
+    }
+}
+@media (min-width: 656px) and (max-width: 769px){
+    .notification{
+        padding: 10px;
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.login{
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+    padding-top: 25vh;
+}
+.login_button,.cancel_button{
+    padding: 10px 30px;
+    margin: 10px;
+    color: white;
+    border-style: none;
+    margin-right: 30px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.login_button,.cancel_button{
+    margin: 20px;
+    margin-top: 20px;
+}
+.login_button{
+    background-color: green;
+}
+.cancel_button{
+    background-color: orange;
+}
+.forgotpassword{
+    margin-top: 20px;
+    margin-right: 60px;
+    cursor: pointer;
+    text-decoration: underline;
+    text-align: right;
+}
+.input_box{
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+    width: 300px;
+}
+.login_page_content{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    background-color: antiquewhite;
+    margin-right: auto;
+    height: 100vh;
+    width: 60vh;
+}
+@media (min-width: 320px) and (max-width: 376px) {
+    .login_page_content{
+        width: 50vh;
+    }
+    .input_box{
+        padding: 10px;
+        width: 220px;
+    }
+    .forgotpassword{
+        margin-right: 40px;
+    }
+}
+@media (min-width: 376px) and (max-width: 426px){
+    .input_box{
+        width: 250px;
+        padding: 10px;
+    }
+}
+@media only screen and (min-width: 1201px) {
+    .forgotpassword{
+        margin-right: 65px;
+    }
+}
